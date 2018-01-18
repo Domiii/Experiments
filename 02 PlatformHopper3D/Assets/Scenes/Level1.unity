@@ -231,9 +231,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minRadius: 20
-  maxRadius: 30
-  minHeight: -10
-  maxHeight: 10
+  maxRadius: 50
+  minHeight: -5
+  maxHeight: 5
   platformPrefab: {fileID: 1798570985503122, guid: adfdddfbee7d30c4b9797386f88a449b,
     type: 2}
   platformGroup: {fileID: 2132139721}
