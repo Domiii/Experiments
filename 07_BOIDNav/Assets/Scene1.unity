@@ -375,11 +375,11 @@ MonoBehaviour:
   spawnRadius: 4
   maxSpeed: 5
   minSpeed: 1
-  maxForce: 5
+  maxForce: 10
   neighborDist: 5
-  targetPull: 10
+  targetPull: 0
   separationWeight: 1
-  alignmentWeight: 4
+  alignmentWeight: 10
   cohesionWeight: 1
   cohesionDamping: 1
   target: {fileID: 1552037122}
@@ -647,11 +647,11 @@ MonoBehaviour:
   boidPrefab: {fileID: 1528116552358694, guid: d4b59307dc8a94a75ad86600150049ab, type: 2}
   spawnCount: 100
   spawnRadius: 4
-  maxSpeed: 5
+  maxSpeed: 3
   minSpeed: 1
-  maxForce: 5
+  maxForce: 10
   neighborDist: 5
-  targetPull: 10
+  targetPull: 0
   separationWeight: 1
   alignmentWeight: 1
   cohesionWeight: 1
@@ -801,12 +801,12 @@ MonoBehaviour:
   spawnRadius: 4
   maxSpeed: 6
   minSpeed: 1
-  maxForce: 6
-  neighborDist: 5
-  targetPull: 5
-  separationWeight: 4
+  maxForce: 10
+  neighborDist: 1
+  targetPull: 0
+  separationWeight: 100
   alignmentWeight: 1
-  cohesionWeight: 1
+  cohesionWeight: 0
   cohesionDamping: 1
   target: {fileID: 1552037122}
   searchLayer:

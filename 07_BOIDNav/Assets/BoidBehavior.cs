@@ -80,10 +80,10 @@ public class BoidBehavior : MonoBehaviour
 		}
 	}
 
-	void Update ()
+	void LateUpdate ()
 	{
-		navMeshAgent.speed = controller.maxSpeed;
 		navMeshAgent.destination = controller.target.position;
+
 		var dt = Time.deltaTime;
 
 		var currentPosition = transform.position;
