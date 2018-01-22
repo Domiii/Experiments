@@ -18,6 +18,7 @@ My daily Prototyping outcomes with Unity :)
   * Procedural 3D bi-ped generator
   * Procedural, pretty/noisy/filtered materials + textures
   * Procedural Character Animations - https://www.youtube.com/watch?v=LNidsMesxSE
+  * Procedural low poly planets? https://www.youtube.com/watch?v=m1iPbO7VKk8
 * Animated/extruted/deformed Meshes
 * Sprite + Mesh Fracturing
   * probably want to use [Voronoi](https://github.com/Domiii/UnityTerrainFun/tree/master/Assets/Scripts/Environment/MapPartitioning.cs) to create the random partitioning
