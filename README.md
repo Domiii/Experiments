@@ -17,16 +17,11 @@ My daily Prototyping outcomes with Unity :)
   * Procedural (but pretty!) landscape
   * Procedural 3D bi-ped generator
   * Procedural, pretty/noisy/filtered materials + textures
+  * Procedural Character Animations - https://www.youtube.com/watch?v=LNidsMesxSE
 * Animated/extruted/deformed Meshes
 * Sprite + Mesh Fracturing
   * probably want to use [Voronoi](https://github.com/Domiii/UnityTerrainFun/tree/master/Assets/Scripts/Environment/MapPartitioning.cs) to create the random partitioning
 * AI
  * SimpleResourceGatherAI
  * SimplePredatorPrey
-  
-  
-# Useful (often reusable) tools/scripts
-
-* [SceneNavigator2D](https://github.com/Domiii/unity-crush-it/blob/master/Assets/Scripts/SceneNavigator2D.cs)
-* [2D Grid System](https://github.com/Domiii/UnityGrid/tree/master/Assets/Scripts)
 
