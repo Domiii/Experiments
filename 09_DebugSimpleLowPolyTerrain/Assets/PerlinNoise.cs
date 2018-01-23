@@ -38,7 +38,7 @@ public class PerlinNoise
 		var gain = 1.0f;
 		for (var o = 0; o < octaveScales.Length; o++) {
 			var s = octaveScales [o] / gain;
-			val += s * Mathf.Clamp01 (Mathf.PerlinNoise (x0 + x * gain / frequency, y0 + y * gain / frequency));
+			val += s * Mathf.Clamp01 (Mathf.PerlinNoise (x0 + x * gain * frequency, y0 + y * gain * frequency));
 			maxScale += s;
 			gain *= 2.0f;
 		}
