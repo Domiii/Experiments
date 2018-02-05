@@ -1,0 +1,28 @@
+engines:
+  rubocop:
+    enabled: true
+  golint:
+    enabled: true
+  eslint:
+    enabled: true
+  csslint:
+    enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - "java"
+      
+ratings:
+  paths:
+  - CURRENT/java/
+  - CURRENT/c-sharp/
+  - "**.java"
+  - "**.cs"
+
+## other docs etc..
+exclude_paths:
+- CURRENT/doc/
+- CURRENT/hello-world/
+- CURRENT/c-sharp/exe-lib-tests/
+- CURRENT/c-sharp/dotnet-other/

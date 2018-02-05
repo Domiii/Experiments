@@ -19,6 +19,7 @@ public class DraggableSprite : MonoBehaviour {
 	private float myWidth;
 	private float myHeight;
 	private Rigidbody2D body;
+	private float originalGravity;
 
 	void Start()
 	{
@@ -46,6 +47,7 @@ public class DraggableSprite : MonoBehaviour {
 			// for grids: make sure that the cell of the sprite that the mouse touched is always in the same cell as the mouse
 			//dragOffset = (transform.position - sprite.bounds.min) - BuildingGrid.Instance.SnapToGridFloor (mousePos - sprite.bounds.min + Vector3.one * 0.01f);
 
+			originalGravity = body.gravityScale;
 			body.gravityScale = 0;
 		}
 	}
@@ -54,7 +56,7 @@ public class DraggableSprite : MonoBehaviour {
 	{
 		if (isDragging) {
 			isDragging = false;
-			body.gravityScale = 1;
+			body.gravityScale = originalGravity;
 		}
 	}
 
