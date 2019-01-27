@@ -1,6 +1,8 @@
 # Experiments
 My daily Prototyping outcomes with Unity :)
 
+[These Google Slides](https://docs.google.com/presentation/d/1QWeXbNBYOAxxL5aD8kYZ8nSkcFThqQNvCrzSC2vN5C8/) demonstrate all results, with explanations and notes (in Chinese 中文).
+
 
 # Ideas
 
